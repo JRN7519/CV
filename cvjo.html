@@ -10,13 +10,13 @@
   <body>
     <header>
       <h1>Jonathan Ruiz</h1>
-      <section>
-        <p>
-          Diplomé dans les domaines du commerce international, des langues
-          étranges ainsi qu'en coiffure, je me tourne aujourdhui vers le
-          développement informatique et les thématiques liées au web.
-        </p>
-      </section>
+
+      <p>
+        Diplomé dans les domaines du commerce international, des langues
+        étranges ainsi qu'en coiffure, je me tourne aujourdhui vers le
+        développement informatique et les thématiques liées au web.
+      </p>
+
       <nav>
         <ul>
           <li><a href="#formation">Formation</a></li>
@@ -24,6 +24,9 @@
           <li><a href="#skills">Compétences</a></li>
         </ul>
       </nav>
+    </header>
+
+    <main>
       <section>
         <h2 id="formation">FORMATION</h2>
 
@@ -71,23 +74,26 @@
         <p>Empathie</p>
         <p>Créativité</p>
       </section>
-    </header>
-    <main></main>
-    <form action="contact" method="get">
-      Contactez-moi
-      <div>
-        <label for="name">Nom:</label>
-        <input type="text" />
-      </div>
-      <div>
-        <label for="email">Email:</label>
-        <input type="email" />
-      </div>
-      <div>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-      </div>
-      <button>Envoyer</button>
-    </form>
-    <footer></footer>
+      <form action="contact" method="get">
+        Contactez-moi
+        <div>
+          <label for="name">Nom:</label>
+          <input type="text" name="name" />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" email="email" />
+        </div>
+        <div>
+          <textarea
+            placeholder="tapez ici"
+            name="email-content"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+        <button type="submit">Envoyer</button>
+      </form>
+    </main>
   </body>
 </html>
