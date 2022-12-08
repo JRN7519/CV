@@ -1,0 +1,54 @@
+* {
+  font-family: Arial;
+  padding: 5px;
+  margin: 10px;
+  text-align: start;
+  box-sizing: border-box;
+  color: black;
+  flex-wrap: wrap;
+  background-color: navajowhite;
+  
+}
+
+header p {
+  font-size: x-large;
+  font-style: italic;
+}
+
+
+nav {
+	padding: 0; margin: 0;
+}
+nav li {
+	display: inline;
+	list-style: none; 
+}
+
+nav a {
+	display:inline-flex;
+	margin: 100px;
+  font-size: 30px;
+  text-decoration: none;
+  color: blueviolet;
+}
+
+h1 {
+  color: blueviolet;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: x-large;
+  font-size: 60px;
+
+}
+
+section {
+ text-align: center;
+ border: solid blueviolet;
+flex-direction:row
+}
+
+p {
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+  flex-wrap: wrap;
+}
